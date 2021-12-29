@@ -1,0 +1,140 @@
+h2 {
+    color: black;
+    font-family: 'Zen Antique Soft', serif;
+    margin-top: 7rem;
+    font-size: 9rem;
+    text-align: center;
+}
+
+.ultimate-01 {
+    background-color: beige;
+}
+
+.ultimate-02 {
+    background-color: #d1d1d1;
+}
+
+.Final {
+    font-size: 2rem;
+    background-color: #d1d1d1;
+}
+
+.Home {
+    font-size: 2rem;
+}
+.Portfolio {
+    font-size: 2rem;
+}
+.About {
+    font-size: 2rem;
+}
+.Education {
+    font-size: 2rem;
+}
+.Contact {
+    font-size: 2rem;
+}
+
+.ten {
+    padding-right: 1.75rem;
+}
+
+.one {
+    font-size: 1.5rem;
+}
+
+.img-01 {
+    width: 100%;
+}
+
+.img-02 {
+    width: 100%;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 545px) {
+    h2 {
+        font-size: 3rem;
+        text-align: center;
+    }
+}
+
+
+@media (min-width: 545px) and (max-width: 686px) { 
+    h2 {
+    padding-left: 4rem;
+    padding-bottom: 1rem;
+    font-size: 6rem;
+    }
+}
+
+@media (min-width: 686px) and (max-width: 720px) {
+    h2 {
+    padding-left: 4rem;
+    padding-bottom: 1rem;
+    font-size: 8rem;
+    text-align: center;
+    }
+}
+
+@media (min-width: 686px) and (max-width: 1330px) {
+    h2 {
+    padding-left: 4rem;
+    padding-bottom: 1rem;
+    font-size: 8.5rem;
+    }
+    .img-01 {
+        width: 100%;
+    }
+    .img-02 {
+        width: 100%;
+    }
+}
+
+@media (min-width: 1330px) and (max-width: 2560px) {
+    h2 {
+        padding-left: 4rem;
+        font-size: 9rem;
+    }
+    .one {
+        text-align: justify;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 992px) {
+    .img-02 {
+        display: none;
+    }
+    .img-01 {
+        width: 100%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 2560px) {
+    .img-01 {
+        display: none;
+    }
+    .img-02 {
+        width: 100%;
+    }
+    .row {
+        padding-top: 2rem;
+    }
+    .Final {
+        font-size: 1.5rem;
+        border: none;
+        background-color: #d1d1d1;
+        text-align: center;
+    }
+    
+    .eight {
+        border: solid;
+        border-width: 0.1rem;
+        padding: 0.1rem;
+    }
+}
+
